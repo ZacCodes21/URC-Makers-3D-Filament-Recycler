@@ -22,17 +22,17 @@ WIP
 5. Add the main repo as another remote named "upstream". This lets Git know that your origin remote is a fork of the main repo:
 - `git remote add upstream https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git`
 - Again validate with `git remote -v`.
-7. Sync your fork with upstream by running consecutivel (^you will have to run this each time you wish to contribute):
+6. [Sync](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository) your fork with upstream by running consecutivel (^you will have to run this each time you wish to contribute):
 - `git fetch upstream`
 - `git checkout main`
 - `git merge upstream/main`
-8.[Sync](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository) your local repo with your fork^:
+7. Sync your local repo with your fork^:
 - `git pull origin main`
-9. Make your changes!
-10. Stage your changes^:
+8. Make your changes!
+9. Stage your changes^:
 - `git add -a`
-11. Commit your changes^:
+10. Commit your changes^:
 - `git commit -m "updated arduino sketches"`
-10. [Push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) your changes^:
+11. [Push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) your changes^:
 - `git push origin main` 
-11. On Github, open a pull request from your forked repo^. It will then be reviewed and merged into the main repo.
+12. On Github, open a pull request from your forked repo^. It will then be reviewed and merged into the main repo.
