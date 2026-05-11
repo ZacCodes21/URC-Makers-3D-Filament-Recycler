@@ -20,10 +20,10 @@ C:\Users\benja\OneDrive\Documents\3dfilamentrecycler>git remote -v
 origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (fetch)
 origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (push)
 ```
-What this means is when you stage and commit changes from your local repository, they will be pulled into your fork in the cloud. From your fork, you can then open a pull request on Github to merge the changes into the main repo.
+  What this means is when you stage and commit changes from your local repository, they will be pulled into your fork in the cloud. From your fork, you can then open a pull request on Github to merge the changes into the main repo.
 5. Add the main repo as another remote named "upstream". This lets Git know that your origin remote is a fork of the main repo:
 `git remote add upstream https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git`
-Again validate with `git remote -v`.
+  Again validate with `git remote -v`.
 6. Sync your fork with upstream by running consecutivel (^you will have to run this each time you wish to contribute):
 `git fetch upstream`
 `git checkout main`
