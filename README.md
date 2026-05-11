@@ -15,11 +15,9 @@ WIP
   - In Github Desktop, go `File > Clone Repository > URL` (third tab) and paste `https://github.com/[YOUR-USERNAME]/URC-Makers-3D-Filament-Recycler`. Set the local path to be your folder and press `clone'
   - In your folder, open Command Prompt and run `git clone https://github.com/[YOUR-USERNAME]/URC-Makers-3D-Filament-Recycler`.
 4. When this is done, you can verify in Command Prompt that the local repo is linked to your fork (your "cloud" repo on Github) by running `git remote -v`. You should see the same URL that you entered:
-```
-C:\Users\benja\OneDrive\Documents\3dfilamentrecycler>git remote -v
-origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (fetch)
-origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (push)
-```
+`C:\Users\benja\OneDrive\Documents\3dfilamentrecycler>git remote -v`
+`origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (fetch)`
+`origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (push)`
   What this means is when you stage and commit changes from your local repository, they will be pulled into your fork in the cloud. From your fork, you can then open a pull request on Github to merge the changes into the main repo.
 5. Add the main repo as another remote named "upstream". This lets Git know that your origin remote is a fork of the main repo:
 `git remote add upstream https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git`
