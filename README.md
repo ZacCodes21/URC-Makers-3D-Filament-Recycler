@@ -20,11 +20,11 @@ I am also relatively new to Git, so if you run into issues trying to use termina
     - In your folder, open Command Prompt and run `git clone https://github.com/[YOUR-USERNAME]/URC-Makers-3D-Filament-Recycler`.
 4. When this is done, you can verify in Command Prompt that the local repo is linked to your fork (your "cloud" repo on Github) by running `git remote -v`. You should see the same URL that you entered:\
 `C:\Users\benja\OneDrive\Documents\3dfilamentrecycler>git remote -v`\
-`origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (fetch)`\
-`origin  https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git (push)`\
+`origin  https://github.com/BenLPC/URC-Makers-3D-Filament-Recycler.git (fetch)`\
+`origin  https://github.com/BenLPC/URC-Makers-3D-Filament-Recycler.git (push)`\
 What this means is when you stage and commit changes from your local repository, they will be pulled into your fork in the cloud. From your fork, you can then open a pull request on Github to merge the changes into the main repo.
 5. Add the main repo as another remote named "upstream". This lets Git know that your origin remote is a fork of the main repo:\
-`git remote add upstream https://github.com/ZacCodes21/URC-Makers-3D-Filament-Recycler.git`\
+`git remote add upstream https://github.com/BenLPC/URC-Makers-3D-Filament-Recycler.git`\
 Again validate with `git remote -v`.
 6. [Sync](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository) your fork with upstream by running consecutively (^you will have to run this each time you wish to contribute):\
 `git fetch upstream`\
@@ -49,7 +49,7 @@ Again validate with `git remote -v`.
 `git pull origin main`
 3. Make your changes!
 4. Stage your changes:\
-`git add -a`
+`git add .`
 5. Commit your changes:\
 `git commit -m "updated arduino sketches"`
 6. [Push](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) your changes:\
