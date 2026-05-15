@@ -13,6 +13,7 @@ If you are new to Git or Github I recommend using [Github Desktop](https://deskt
 I am also relatively new to Git, so if you run into issues trying to use terminal I will likely be just as confused. Github Desktop is certainly the easiest and least error-prone way of contributing. A lot of what I talk about in Contributing can be skipped by using the application, except for opening a pull request.
 ## Contributing
 ### For the first time
+Note: this section is undergoing changes for brevity, and to separate Github Desktop and CLI walkthroughs.
 1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository. There should be a button on this page to do so. This creates a copy of the main repository on your Github known as a fork.
 2. Make a new "local" folder/directory in your Onedrive Documents or your Desktop (Onedrive recommended).
 3. Clone your fork into your new folder. What this step does is download the files in the fork onto your computer. This folder is known as the "local repository". There are two ways to do this:
